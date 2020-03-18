@@ -58,15 +58,3 @@ you can set and query flags like this:
 	- application scan done
 	- shit happened during testing
 
-
-#define SCANNED     1
-#define PORT_OPEN   2
-#define IS_HTTP     4
-#define IS_SSL      8
-#define SVC_DONE    16
-#define APP_DONE    32
-#define UNASSIGNED  64
-#define ERROR       128
-
-
-	

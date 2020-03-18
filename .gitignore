@@ -1,2 +1,4 @@
 http
-tcp-80
+struct
+tcp-80.db
+MyStruct.db

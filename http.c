@@ -27,7 +27,7 @@ int main (int argc, char** argv) {
 	unsigned char data;
 	unsigned int adr, ret = 0;
 	adr = ntohl(inet_addr(argv[1]));
-	fp = fopen("tcp-80","r+");
+	fp = fopen("tcp-80.db","r+");
 	fseek(fp, adr, SEEK_SET );
 	printf("address: %d; ", adr);
 	if (argc == 2) { // read
